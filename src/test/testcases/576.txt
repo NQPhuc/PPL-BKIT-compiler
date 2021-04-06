@@ -1,0 +1,16 @@
+
+            Function: main
+            Body:
+                Var: x = 1, y = 2;
+                If x == 1 Then
+                    Var: x = 2;
+                    print(string_of_int(x));
+                    If x == 2 Then
+                        print("HERE");
+                    EndIf.
+                Else
+                    print("abc");
+                EndIf.
+                Return;
+            EndBody.
+        

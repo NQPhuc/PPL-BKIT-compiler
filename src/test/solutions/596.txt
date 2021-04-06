@@ -1,0 +1,8 @@
+iA = 5, iB = 7
+bA = true, bB = false
+fA = 1.3, fB = 2.8
+sA = A, sB = B
+iA = 5, iB = 7
+bA = true, bB = false
+fA = 1.3, fB = 2.8
+sA = A, sB = B

@@ -1,0 +1,96 @@
+
+        Function: main 
+        Body:
+            Var: iA = {5, 7};
+            Var: fA = {1.3, 2.8};
+            Var: bA = {True, False};
+            Var: sA = {"A", "B"};
+            
+            print("iA[0] = ");
+            print(string_of_int(iA[0]));
+            print(", iA[1] = ");
+            printStrLn(string_of_int(iA[1]));
+            
+            print("bA[0] = ");
+            print(string_of_bool(bA[0]));
+            print(", bA[1] = ");
+            printStrLn(string_of_bool(bA[1]));
+            
+            print("fA[0] = ");
+            print(string_of_float(fA[0]));
+            print(", fA[1] = ");
+            printStrLn(string_of_float(fA[1]));
+            
+            print("sA[0] = ");
+            print(sA[0]);
+            print(", sA[1] = ");
+            printStrLn(sA[1]);
+            
+            swapInt(iA, 0, 1);
+            swapBool(bA, 0, 1);
+            swapFloat(fA, 0, 1);
+            swapString(sA, 0, 1);
+            
+            print("iA[0] = ");
+            print(string_of_int(iA[0]));
+            print(", iA[1] = ");
+            printStrLn(string_of_int(iA[1]));
+            
+            print("bA[0] = ");
+            print(string_of_bool(bA[0]));
+            print(", bA[1] = ");
+            printStrLn(string_of_bool(bA[1]));
+            
+            print("fA[0] = ");
+            print(string_of_float(fA[0]));
+            print(", fA[1] = ");
+            printStrLn(string_of_float(fA[1]));
+            
+            print("sA[0] = ");
+            print(sA[0]);
+            print(", sA[1] = ");
+            printStrLn(sA[1]);
+            
+            Return 0;
+        EndBody.
+
+        Function: swapInt
+        Parameter: x[2], a, b
+        Body:
+            Var: temp = 0;
+            temp = x[a];
+            x[a] = x[b];
+            x[b] = temp;
+            Return;
+        EndBody.
+        
+        Function: swapBool
+        Parameter: x[2], a, b
+        Body:
+            Var: temp = False;
+            temp = x[a];
+            x[a] = x[b];
+            x[b] = temp;
+            Return;
+        EndBody.
+        
+        Function: swapFloat
+        Parameter: x[2], a, b
+        Body:
+            Var: temp = 0.0;
+            temp = x[a];
+            x[a] = x[b];
+            x[b] = temp;
+            Return;
+        EndBody.
+        
+        Function: swapString
+        Parameter: x[2], a, b
+        Body:
+            Var: temp = "";
+            temp = x[a];
+            x[a] = x[b];
+            x[b] = temp;
+            Return;
+        EndBody.
+        

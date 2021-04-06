@@ -1,0 +1,43 @@
+
+        Var: a = 3;
+        Var: b = 4;
+        Var: c = 5;
+        Var: d = 6;
+        Function: main 
+        Body: 
+            Var: matrix = {{0, 0},{0, 0}};
+            print("Creating 2x2 matrix:\n");
+            print("a\tb\nc\td\n");
+            print("a = ");
+            printStrLn(string_of_int(a));
+            print("b = ");
+            printStrLn(string_of_int(b));
+            print("c = ");
+            printStrLn(string_of_int(c));
+            print("d = ");
+            printStrLn(string_of_int(d));
+            
+            matrix = matrix_2x2(a, b, c, d);
+            print("m[0][0] = ");
+            printStrLn(string_of_int(matrix[0][0]));
+            print("m[0][1] = ");
+            printStrLn(string_of_int(matrix_2x2(a, b, c, d)[0][1]));
+            print("m[1][0] = ");
+            printStrLn(string_of_int(matrix[1][0]));
+            print("m[1][1] = ");
+            print(string_of_int(matrix_2x2(a, b, c, d)[1][1]));
+            
+            Return;
+        EndBody.
+        
+        Function: matrix_2x2
+        Parameter: a00, a01, a10, a11
+        Body:
+        Var: m[2][2] = {{0,0},{0,0}};
+            m[0][0] = a00;
+            m[0][1] = a01;
+            m[1][0] = a10;
+            m[1][1] = a11;
+            Return m;
+        EndBody.
+        

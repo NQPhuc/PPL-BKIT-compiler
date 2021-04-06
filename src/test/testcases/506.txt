@@ -1,0 +1,8 @@
+
+            Var: c = True;
+            Function: main
+            Body:
+                print(string_of_bool(c));
+                Return;
+            EndBody.
+        

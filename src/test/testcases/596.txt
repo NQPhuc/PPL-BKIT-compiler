@@ -1,0 +1,96 @@
+
+        Function: main 
+        Body:
+            Var: iA = 5, iB = 7;
+            Var: fA = 1.3, fB = 2.8;
+            Var: bA = True, bB = False;
+            Var: sA = "A", sB = "B";
+            
+            print("iA = ");
+            print(string_of_int(iA));
+            print(", iB = ");
+            printStrLn(string_of_int(iB));
+            
+            print("bA = ");
+            print(string_of_bool(bA));
+            print(", bB = ");
+            printStrLn(string_of_bool(bB));
+            
+            print("fA = ");
+            print(string_of_float(fA));
+            print(", fB = ");
+            printStrLn(string_of_float(fB));
+            
+            print("sA = ");
+            print(sA);
+            print(", sB = ");
+            printStrLn(sB);
+            
+            swapInt(iA, iB);
+            swapBool(bA, bB);
+            swapFloat(fA, fB);
+            swapString(sA, sB);
+            
+            print("iA = ");
+            print(string_of_int(iA));
+            print(", iB = ");
+            printStrLn(string_of_int(iB));
+            
+            print("bA = ");
+            print(string_of_bool(bA));
+            print(", bB = ");
+            printStrLn(string_of_bool(bB));
+            
+            print("fA = ");
+            print(string_of_float(fA));
+            print(", fB = ");
+            printStrLn(string_of_float(fB));
+            
+            print("sA = ");
+            print(sA);
+            print(", sB = ");
+            printStrLn(sB);
+            
+            Return 0;
+        EndBody.
+
+        Function: swapInt
+        Parameter: x, y
+        Body:
+            Var: temp = 0;
+            temp = x;
+            x = y;
+            y = temp;
+            Return;
+        EndBody.
+        
+        Function: swapBool
+        Parameter: x, y
+        Body:
+            Var: temp = False;
+            temp = x;
+            x = y;
+            y = temp;
+            Return;
+        EndBody.
+        
+        Function: swapFloat
+        Parameter: x, y
+        Body:
+            Var: temp = 0.0;
+            temp = x;
+            x = y;
+            y = temp;
+            Return;
+        EndBody.
+        
+        Function: swapString
+        Parameter: x, y
+        Body:
+            Var: temp = "";
+            temp = x;
+            x = y;
+            y = temp;
+            Return;
+        EndBody.
+        

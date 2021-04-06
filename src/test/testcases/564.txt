@@ -1,0 +1,9 @@
+
+            Function: main
+            Body:
+                Var: x = False;
+                print(string_of_bool(!(float_to_int(-7) >. -.7.5)));
+                print(string_of_bool(!(float_to_int(-7) <. -.7.5)));
+                Return;
+            EndBody.
+        

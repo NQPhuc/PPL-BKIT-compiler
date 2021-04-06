@@ -1,0 +1,22 @@
+
+            Function: main
+            Body:
+                Var: x = 3, y = 2;
+                If x == 1 Then
+                    Var: x = 2;
+                    print(string_of_int(x));
+                    If x == 2 Then
+                        print("A");
+                    EndIf.
+                Else
+                    Var: y = 3;
+                    If y == 2 Then
+                        print("B");
+                    Else
+                        print("C");
+                    EndIf.
+                    print("abc");
+                EndIf.
+                Return;
+            EndBody.
+        

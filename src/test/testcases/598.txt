@@ -1,0 +1,27 @@
+
+        Var: a = 81;
+        Var: b = 67;
+        Function: main 
+        Body: 
+            print("a = ");
+            printStrLn(string_of_int(a));
+            print("b = ");
+            printStrLn(string_of_int(b));
+            print("a + b = ");
+            print(string_of_int(sum(a, b)));
+            Return 0;
+        EndBody.
+        
+        ** Document
+           input:
+             a: int type
+             b: int type
+           return:
+           sum of a + b: int type
+        **
+        Function: sum
+        Parameter: x,y
+        Body:
+            Return x + y;
+        EndBody.
+        

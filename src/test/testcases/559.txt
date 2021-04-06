@@ -1,0 +1,18 @@
+
+            Function: main
+            Body:
+                print(string_of_bool((foo2() && foo()) || (foo() && foo2())));
+                Return;
+            EndBody.
+            
+            Function: foo
+            Body:
+                print("foo(),");
+                Return True;
+            EndBody.
+            Function: foo2
+            Body:
+                print("foo2(),");
+                Return False;
+            EndBody.
+        

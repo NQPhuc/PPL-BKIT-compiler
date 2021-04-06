@@ -1,0 +1,8 @@
+iA[0] = 5, iA[1] = 7
+bA[0] = true, bA[1] = false
+fA[0] = 1.3, fA[1] = 2.8
+sA[0] = A, sA[1] = B
+iA[0] = 7, iA[1] = 5
+bA[0] = false, bA[1] = true
+fA[0] = 2.8, fA[1] = 1.3
+sA[0] = B, sA[1] = A

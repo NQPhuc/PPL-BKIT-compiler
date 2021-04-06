@@ -1,0 +1,16 @@
+
+            Function: main
+            Body:
+                Var: i = 1;
+                Var: j = 1;
+                For(i = 0, i < 10, 2) Do
+                    Var: i = 7;
+                    print(string_of_int(i));
+                    For(j = 0, j < 2, 1) Do
+                        Var: j = 8;
+                        print(string_of_int(j));
+                    EndFor.                   
+                EndFor.
+                Return;
+            EndBody.
+        

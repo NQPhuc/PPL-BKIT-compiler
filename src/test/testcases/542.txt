@@ -1,0 +1,7 @@
+
+            Function: main
+            Body:               
+                print(string_of_int(102%20));
+                Return;
+            EndBody.
+        

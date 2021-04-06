@@ -1,0 +1,8 @@
+
+            Var: x[3] = {1,2,3};
+            Function: main
+            Body:
+                print(string_of_int(x[1]));
+                Return;
+            EndBody.
+        

@@ -1,0 +1,18 @@
+
+            Function: main
+            Body:
+                Var: x = {{"This", " is"}, {" a"," random sentence."}};
+                Var: y[2][3] = {{200, 5}, {6, 80}};
+                
+                print(x[0][0]);
+                print(x[0][1]);
+                print(x[1][0]);
+                print(x[1][1]);
+                
+                print(string_of_int(y[0][0]));
+                print(string_of_int(y[0][1]));
+                print(string_of_int(y[1][0]));
+                print(string_of_int(y[1][1]));
+                Return;
+            EndBody.
+        

@@ -1,0 +1,86 @@
+Classfile /C:/Users/SivDesktop/OneDrive/BK/Sem 201/PPL/ass4/assignment4/initial/src/MCClass.class
+  Last modified 16 Dec 2020; size 515 bytes
+  SHA-256 checksum 091ed01a913af066052a5496bb481b3674aa9c4cf1cccf5aa88e6edcc2061876
+  Compiled from "MCClass.java"
+public class MCClass
+  minor version: 3
+  major version: 45
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #11                         // MCClass
+  super_class: #6                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 4, attributes: 1
+Constant pool:
+   #1 = Utf8               ([Ljava/lang/String;)V
+   #2 = Utf8               java/lang/Object
+   #3 = Utf8               <init>
+   #4 = Utf8               this
+   #5 = NameAndType        #3:#12         // "<init>":()V
+   #6 = Class              #2             // java/lang/Object
+   #7 = Utf8               args
+   #8 = Class              #16            // io
+   #9 = Utf8               print
+  #10 = Utf8               <clinit>
+  #11 = Class              #15            // MCClass
+  #12 = Utf8               ()V
+  #13 = Utf8               Code
+  #14 = Utf8               main
+  #15 = Utf8               MCClass
+  #16 = Utf8               io
+  #17 = Methodref          #8.#30         // io.string_of_int:(I)Ljava/lang/String;
+  #18 = Utf8               SourceFile
+  #19 = Methodref          #11.#20        // MCClass.Main:()V
+  #20 = NameAndType        #22:#12        // Main:()V
+  #21 = Utf8               MCClass.java
+  #22 = Utf8               Main
+  #23 = Utf8               string_of_int
+  #24 = Methodref          #6.#5          // java/lang/Object."<init>":()V
+  #25 = NameAndType        #9:#29         // print:(Ljava/lang/String;)V
+  #26 = Utf8               [Ljava/lang/String;
+  #27 = Utf8               LMCClass;
+  #28 = Utf8               (I)Ljava/lang/String;
+  #29 = Utf8               (Ljava/lang/String;)V
+  #30 = NameAndType        #23:#28        // string_of_int:(I)Ljava/lang/String;
+  #31 = Methodref          #8.#25         // io.print:(Ljava/lang/String;)V
+  #32 = Utf8               LocalVariableTable
+{
+  public static void Main();
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=0, args_size=0
+         0: bipush        120
+         2: invokestatic  #17                 // Method io.string_of_int:(I)Ljava/lang/String;
+         5: invokestatic  #31                 // Method io.print:(Ljava/lang/String;)V
+         8: return
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: invokestatic  #19                 // Method Main:()V
+         3: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       3     0  args   [Ljava/lang/String;
+
+  public MCClass();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #24                 // Method java/lang/Object."<init>":()V
+         4: return
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       4     0  this   LMCClass;
+
+  public static {};
+    descriptor: ()V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=0, locals=0, args_size=0
+         0: return
+}
+SourceFile: "MCClass.java"

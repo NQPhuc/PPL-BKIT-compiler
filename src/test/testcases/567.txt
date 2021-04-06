@@ -1,0 +1,9 @@
+
+            Function: main
+            Body:
+                Var: x = 99;
+                x = 10;
+                print(string_of_int(x));
+                Return;
+            EndBody.
+        

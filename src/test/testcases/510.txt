@@ -1,0 +1,14 @@
+
+            Var: x = 100;
+            Var: y = 1.0, s = "Phuc";
+            Var: z = 5, b = True;
+            Function: main
+            Body:
+                printStrLn(string_of_int(x));
+                printStrLn(string_of_float(y));
+                printStrLn(string_of_int(z));
+                printStrLn(s);
+                print(string_of_bool(b));
+                Return;
+            EndBody.
+        

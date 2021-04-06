@@ -1,0 +1,8 @@
+
+            Function: main
+            Body:
+                Var: x = {{1,2},{3,4}};
+                print(string_of_int(x[-int_of_float(-.1.0)][--1]));
+                Return;
+            EndBody.
+        

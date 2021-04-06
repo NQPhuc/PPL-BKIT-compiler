@@ -1,0 +1,10 @@
+
+            Function: main
+            Body:
+                Var: x = 1.0;
+                print(string_of_bool(x >. 2.0));
+                print(string_of_bool(2.0 >. 2.0));
+                print(string_of_bool(3.0 >. 2.0));
+                Return;
+            EndBody.
+        

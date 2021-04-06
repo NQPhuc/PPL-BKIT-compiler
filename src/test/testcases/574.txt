@@ -1,0 +1,14 @@
+
+            Function: main
+            Body:
+                Var: x = 1, y = 2;
+                If x != 1 Then
+                    print("1");
+                ElseIf y == 2 Then
+                    print("HERE");
+                Else
+                    print("2");
+                EndIf.
+                Return;
+            EndBody.
+        

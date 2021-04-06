@@ -1,0 +1,8 @@
+
+            Function: main
+            Body:
+                Var: x = "Local var";
+                print(x);
+                Return;
+            EndBody.
+        

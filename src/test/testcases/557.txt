@@ -1,0 +1,15 @@
+
+            Function: main
+            Body:
+                Var: x = True;
+                print(string_of_bool(foo() || x));
+                print(string_of_bool(x || foo()));
+                Return;
+            EndBody.
+            
+            Function: foo
+            Body:
+                print("TEST");
+                Return False;
+            EndBody.
+        

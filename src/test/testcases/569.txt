@@ -1,0 +1,11 @@
+
+            Function: main
+            Body:
+                Var: x = True, y = "";
+                x = False;
+                y = "Hello";
+                print(string_of_bool(x));
+                print(y);
+                Return;
+            EndBody.
+        

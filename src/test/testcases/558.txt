@@ -1,0 +1,9 @@
+
+            Function: main
+            Body:
+                Var: x = 1, y = 2;
+                printStrLn(string_of_int(10 + 2 - 3 * 4 \ 2));
+                print(string_of_int(10 + (2 - 3) * 4 \ 2));
+                Return;
+            EndBody.
+        

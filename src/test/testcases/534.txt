@@ -1,0 +1,7 @@
+
+            Function: main
+            Body:               
+                print(string_of_int(1+2));
+                Return;
+            EndBody.
+        

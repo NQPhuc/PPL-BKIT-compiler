@@ -1,0 +1,37 @@
+
+            Var: i = 0, j = 0;
+            Function: main
+            Body:                
+                Do
+                    Var: i = 6;
+                    
+                    print(string_of_int(i));
+                    Do
+                        Var: j = 8;
+                        print(string_of_int(j));
+                        jIncrease(1);
+                    While j < 2 
+                    EndDo.
+                    
+                    iIncrease(2);
+                    j = 0;
+                While i < 10 
+                EndDo.
+                
+                Return;
+            EndBody.
+            
+            Function: iIncrease
+            Parameter: n
+            Body:
+                i = i + n;
+                Return;
+            EndBody.
+            
+            Function: jIncrease
+            Parameter: n
+            Body:
+                j = j + n;
+                Return;
+            EndBody.
+        

@@ -1,0 +1,12 @@
+
+            Function: main
+            Body:
+                Var: x = "Local var";
+                Var: y = 1;
+                Var: z = 5.7;
+                print(x);
+                print(string_of_int(y));
+                print(string_of_float(z));
+                Return;
+            EndBody.
+        

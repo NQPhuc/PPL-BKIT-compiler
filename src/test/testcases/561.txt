@@ -1,0 +1,8 @@
+
+            Function: main
+            Body:
+                Var: x = 4.3;
+                print(string_of_float(-.x));
+                Return;
+            EndBody.
+        

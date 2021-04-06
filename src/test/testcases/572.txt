@@ -1,0 +1,9 @@
+
+            Function: main
+            Body:
+                If True Then
+                    print("TRUE");
+                EndIf.
+                Return;
+            EndBody.
+        

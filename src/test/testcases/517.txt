@@ -1,0 +1,8 @@
+
+            Function: main
+            Body:
+                Var: x = 300;
+                print(string_of_int(x));
+                Return;
+            EndBody.
+        

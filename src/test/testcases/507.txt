@@ -1,0 +1,8 @@
+
+            Var: d = "Hello";
+            Function: main
+            Body:
+                print(d);
+                Return;
+            EndBody.
+        

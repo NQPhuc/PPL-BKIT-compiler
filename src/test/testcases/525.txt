@@ -1,0 +1,9 @@
+
+            Function: main
+            Body:
+                Var: x = {"aaa", "bbb"};
+                print(x[0]);
+                print(x[1]);
+                Return;
+            EndBody.
+        

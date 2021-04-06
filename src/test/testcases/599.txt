@@ -1,0 +1,24 @@
+
+        Var: a = 3;
+        Var: b = 4;
+        Function: main 
+        Body: 
+            print("a = ");
+            printStrLn(string_of_int(a));
+            print("b = ");
+            printStrLn(string_of_int(b));
+            print("a^b = ");
+            print(string_of_int(power(a, b)));
+            Return 0;
+        EndBody.
+
+        Function: power
+        Parameter: x,y
+        Body:
+            Var: r = 1, i = 0;
+            For(i = 0, i < y, 1) Do
+                r = r * x;
+            EndFor.
+            Return r;
+        EndBody.
+        

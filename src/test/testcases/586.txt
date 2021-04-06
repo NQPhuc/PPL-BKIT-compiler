@@ -1,0 +1,11 @@
+
+            Function: main
+            Body:
+                Var: i = 0;
+                While i < 10 Do
+                    print(string_of_int(i));
+                    i = i + 2;
+                EndWhile.
+                Return;
+            EndBody.
+        

@@ -1,0 +1,18 @@
+
+        Function: main 
+        Body:
+            print(string_of_int(fac(6)));
+            print(string_of_int(fac(0)));
+            print(string_of_int(fac(1)));
+            Return 0;
+        EndBody.
+
+        Function: fac
+        Parameter: x
+        Body:
+            If x <= 1 Then
+                Return 1;
+            EndIf.
+            Return x*fac(x-1);
+        EndBody.
+        

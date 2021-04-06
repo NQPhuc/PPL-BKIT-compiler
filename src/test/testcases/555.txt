@@ -1,0 +1,11 @@
+
+            Function: main
+            Body:
+                Var: x = True, y = False;
+                print(string_of_bool(x || x));
+                print(string_of_bool(x || y));
+                print(string_of_bool(y || x));
+                print(string_of_bool(y || y));
+                Return;
+            EndBody.
+        

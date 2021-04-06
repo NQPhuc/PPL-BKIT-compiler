@@ -1,0 +1,8 @@
+
+            Function: main
+            Body:
+                Var: x = False;
+                print(string_of_bool(!x));
+                Return;
+            EndBody.
+        

@@ -1,0 +1,20 @@
+
+            Function: main
+            Body:
+                Var: x = 1, y = 2;
+                print(string_of_int(x));
+                If x == 1 Then
+                    Var: x = 2;
+                    print(string_of_int(x));
+                    If x == 2 Then
+                        Var: x = 3;
+                        print(string_of_int(x));
+                        If x == 3 Then
+                            Var: x = 4;
+                            print(string_of_int(x));
+                        EndIf.
+                    EndIf.
+                EndIf.
+                Return;
+            EndBody.
+        

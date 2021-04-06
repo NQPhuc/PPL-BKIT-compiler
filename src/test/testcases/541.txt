@@ -1,0 +1,7 @@
+
+            Function: main
+            Body:               
+                print(string_of_float(100.0\.20.0));
+                Return;
+            EndBody.
+        

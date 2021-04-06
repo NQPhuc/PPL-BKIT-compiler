@@ -1,0 +1,9 @@
+
+            Var: x = {{True, False}, {False,True}};
+            Function: main
+            Body:
+                print(string_of_bool(x[0][0]));
+                print(string_of_bool(x[1][1]));
+                Return;
+            EndBody.
+        
